@@ -84,12 +84,12 @@
 <body>
 
     <div class="header">
-        <img src="setfhtlogo.png" alt="Integral Solutions Logo" class="logo">
+        <img src="setfhtlogo.png" alt="SETFHT" class="logo">
     </div>
 
     <div class="support-container">
-        <h1>Submit Support Ticket</h1>
-        <p class="sub">Direct to: <strong>Support Ticketing System</strong></p>
+        <h1>Submit A Ticket</h1>
+        <p class="sub">Direct to: <strong>SETFHT Tracker</strong></p>
 
         <form action="https://formspree.io/f/xaqzokvy" method="POST" enctype="multipart/form-data">
 
@@ -113,7 +113,7 @@
                     <label>Priority</label>
                     <select name="priority" required>
                         <option value="Standard">Standard</option>
-                        <option value="Urgent">Urgent (critical service down only)</option>
+                        <option value="Urgent">Urgent</option>
                         <option value="Administrative">Administrative</option>
                     </select>
                 </div>
@@ -127,23 +127,14 @@
                 <label>Site Location</label>
                 <select name="location" required>
                     <option value="" disabled selected>Select a location...</option>
-                    <option value="1871">1871</option>
-                    <option value="840">840</option>
+                    <option value="1871 North ">1871 North</option>
+                    <option value="1871 South">1871 South</option>
+                    <option value="840 East">840 East</option>
+                    <option value="840 West">840 West</option>
                     <option value="HATM">HATM</option>
                 </select>
             </div>
-
-            <div class="form-row">
-                <div class="form-group">
-                    <label>Computer Location</label>
-                    <input type="text" name="computer_room_desk" placeholder="e.g. 3rd Floor - Room 14" required>
-                </div>
-                <div class="form-group">
-                    <label>Computer Name <span class="optional">(Optional)</span></label>
-                    <input type="text" name="computer_name" placeholder="Label on bottom right of monitor">
-                </div>
-            </div>
-                
+                          
             <div class="full-width">
                 <label>Request Description</label>
                 <textarea name="description" rows="4" placeholder="How can we help?" required></textarea>
